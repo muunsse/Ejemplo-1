@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Network</h1>
+    </div>
+    <h1>Your Feed</h1>
+    <div class="container">
+        <div class="perfil">
+            <img src="perfil.png" alt="" class="imagen">
+            <h2>Monserrat .A</h2>
+        </div>
+        <div class="perfiles">
+            <div class="o">
+                <h2>Oscar C.</h2>
+                <div class="btn-oscar">
+                    <p id="meGusta1">0 Likes</p>
+                    <button onclick="aumentarLikes1()">Like</button>
+                </div>
+                <p>Acabo de configurar este nuevo bot de Discord, cuentenme que opinan ustedes. <a
+                        href="http://">Link</a></p>
+            </div>
+            <div class="g">
+                <h2>Gabriela Q.</h2>
+                <div class="btn-gabriela">
+                    <p id="meGusta2">0 Likes</p>
+                    <button onclick="aumentarLikes2()">Like</button>
+                </div>
+                <p>Acabo de terminar este <a href="http://">nuevo comic</a> denle un vistazo</p>
+            </div>        
+            <div class="l">
+                <h2>Leonel B.</h2>
+                <div class="btn-leonel">
+                    <p id="meGusta3">0 Likes</p>
+                    <button onclick="aumentarLikes3()">Like</button>
+                </div>
+                <p>No puedo dejar de escuchar este <a href="http://">Album</a>. ¿A quien mas le gusta?</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
